@@ -4,6 +4,7 @@ FILES=(
 	".bashrc"
 	".vimrc"
 	".gitconfig"
+	".tmux.conf"
 )
 for file in "${FILES[@]}";do
 	src="$DIR/$file"
